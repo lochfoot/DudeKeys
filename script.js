@@ -10,8 +10,8 @@ const congrats = document.querySelector(`.congrats`);
 btnYes.addEventListener(`click`, function () {
   const newIdea = Math.trunc(Math.random() * 9);
   switch (newIdea) {
-    case 0:
-      idea.textContent = `Did you check the pantry?`;
+   case 0:
+      idea.textContent = `Did you check the couch cushions?`;
       break;
     case 1:
       idea.textContent = `Did you check the freezer?`;
@@ -39,6 +39,9 @@ btnYes.addEventListener(`click`, function () {
       break;
     case 9:
       idea.textContent = `Did you check the dresser?`;
+      break;
+    case 10:
+      idea.textContent = `Did you check the pantry?`;
       break;
   }
 });
